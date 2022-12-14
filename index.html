@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notite</title>
+
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body onload="incarca()">
+    
+
+    <div id="main">
+        <h1 class="centered">Planul săptămânii</h1>
+    
+        <div class="notite">
+            <div class="notita">
+                <h3 class="centered">Luni</h3>
+                <textarea id="text-luni"></textarea>
+                <span id="data-luni">Modificat:</span>
+                <span></span>
+                <br/>
+                <div onclick="salveaza('luni')" class="save">Salvează</div>
+            </div>
+
+            <div class="notita">
+                <h3 class="centered">Marți</h3>
+                <textarea id="text-marti"></textarea>
+                <span id="data-marti" >Modificat:</span>
+                <span></span>
+                <br/>
+                <div onclick="salveaza('marti')" class="save">Salvează</div>
+            </div>
+
+            <div class="notita">
+                <h3 class="centered">Miercuri</h3>
+                <textarea id="text-miercuri"></textarea>
+                <span id="data-miercuri">Modificat:</span>
+                <span></span>
+                <br/>
+                <div onclick="salveaza('miercuri')" class="save">Salvează</div>
+            </div>
+
+            <div class="notita">
+                <h3 class="centered">Joi</h3>
+                <textarea id="text-joi"></textarea>
+                <span id="data-joi">Modificat:</span>
+                <span></span>
+                <br/>
+                <div onclick="salveaza('joi')" class="save">Salvează</div>
+            </div>
+
+            <div class="notita">
+                <h3 class="centered">Vineri</h3>
+                <textarea id="text-vineri"></textarea>
+                <span id="data-vineri">Modificat:</span>
+                <span></span>
+                <br/>
+                <div onclick="salveaza('vineri')" class="save">Salvează</div>
+            </div>
+
+            <div class="notita">
+                <h3 class="centered">Sâmbătă</h3>
+                <textarea id="text-sambata"></textarea>
+                <span id="data-sambata">Modificat:</span>
+                <span></span>
+                <br/>
+                <div onclick="salveaza('sambata')" class="save">Salvează</div>
+            </div>
+
+            <div class="notita">
+                <h3 class="centered">Duminica</h3>
+                <textarea id="text-duminica"></textarea>
+                <span id="data-duminica">Modificat:</span>
+                <span></span>
+                <br/>
+                <div onclick="salveaza('duminica')"  class="save">Salvează</div>
+            </div>
+            
+        </div>
+    </div>
+
+<script src="main.js"></script>
+
+</body>
+</html>
